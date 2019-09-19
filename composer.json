@@ -1,0 +1,28 @@
+{
+    "name": "bearcms/tasks-runner-bearframework-addon",
+    "description": "Tasks runner addon for Bear CMS",
+    "keywords": [
+        "tasks",
+        "runner",
+        "Bear CMS"
+    ],
+    "homepage": "https://github.com/bearcms/tasks-runner-bearframework-addon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bear CMS",
+            "email": "support@bearcms.com",
+            "homepage": "https://bearcms.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "bearcms/bearframework-addon": ">=1.4.1 <2.0",
+        "bearframework/tasks-addon": "0.4.*"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}

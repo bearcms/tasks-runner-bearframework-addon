@@ -18,7 +18,7 @@
     "require": {
         "php": ">=7.1",
         "bearcms/bearframework-addon": ">=1.4.1 <2.0",
-        "bearframework/tasks-addon": "0.4.*"
+        "bearframework/tasks-addon": "1.*"
     },
     "autoload": {
         "files": [

@@ -28,12 +28,12 @@ $app->routes
 $hasNewTasks = false;
 
 $app->tasks
-    ->addEventListener('addTask', function () use (&$hasNewTasks) {
+    ->addEventListener('addTask', function () use (&$hasNewTasks): void {
         $hasNewTasks = true;
     });
 
 $app
-    ->addEventListener('sendResponse', function () use ($app, &$hasNewTasks) {
+    ->addEventListener('sendResponse', function () use ($app, &$hasNewTasks): void {
         if (!$hasNewTasks) {
             return;
         }
